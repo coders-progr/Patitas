@@ -189,14 +189,91 @@ body {
 }
 
 /* seccion colaboracion */
-.colaboracion {
+.tocolaboracion {
+    display:table-header-group;
+    }
+    
+    .colaboracion {
+        
+        width: 713px;
+        height: 112px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    margin-left: 50px;
     position: absolute;
-    width: 713px;
-    height: 112px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 98px;
-}
+    }
+    
+    .gatosyperros {
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+        margin-left: 55%;
+        position: absolute;
+        margin-top: 15%;
+    }
+    
+    .textocolabo {
+    /* width: 50px; */
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 20;
+    font-size: 20px;
+    line-height: 20px;
+    color: #EAA12A;
+    }
+    
+    /* Formulario */
+    form { 
+        background: rgba(119, 132, 203, 0.61);
+        padding: 20px;
+        border-radius: 10px;
+        width: 431px;
+        height: 466px;
+        margin-left: 60px;
+        margin-top: 50%;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+    
+      input[type="text"], input[type="email"], input[type="tel"], input[type="date"] {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 10px;
+      }
+    
+      select {
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+      }
+    
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+    
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+    
 

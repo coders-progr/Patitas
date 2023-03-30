@@ -79,9 +79,13 @@
             <h2>aaaaaaaaaaaaaaaaaaaaa</h2>
         </div>
         <!--Apartado de Proceso de Adopcion-->
+        <div>
         <h1>Proceso de adopción</h1>
-        <!--Imagen-->        
+        </div>
+        <!--Imagen-->
+        <div>        
         <img src="./img/procesodeadopcion.webp">
+        </div>
         <div class="proceso">
             <!--Texto del Pro   ceso-->
             <h3> 5 pasos para una adopción responsable:</h3>
@@ -103,9 +107,7 @@
 
 
 
-
     <!-- Seccion de animales-->
-    <section id="colabo"></section>
     <div class="animalesenadopcion">
         <!--Titulo-->
         <h1>Animales en adopcion</h1>
@@ -152,17 +154,56 @@
     </div>
 
     <!-- Seccion colaboracion -->
-    <div class="colaboracion">
-    <h3>Colaboración</h3>
-</div>
-
-    <!-- formulario -->
+    <section id="colabo"></section>
+    <section class="colabora">
+    <div class="tocolaboracion">
+        <div class="colaboracion">
+            <h3>
+                Colaboración
+            </h3>
+        </div>
     
 
-
-    <div class="ft">
-
+    <div>
+        <img class="gatosyperros" src="./img/gatos y perros.png" alt="">
     </div>
+        <div>    
+            <p class="textocolabo">"Los animales son sensibles, inteligentes, divertidos y entretenidos. Debemos cuidarles al igual que hacemos con los niños"</p>
+        </div>
+    </div>
+    <!-- formulario -->
+    <div>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+        <label for="Desea-apadrinar">Desea apadrinar un:</label>
+        <select id="desea-apadrinar-un" name="desea-apadrinar-un">
+        <option value="perro">Perro</option>
+        <option value="gato">Gato</option>
+        <option value="otro">Otro</option>
+        </select>
+
+        <input type="checkbox" name="" id="">Deseo colaborar con la protectora
+
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
+    </section>
+</div>
+
 </body>
 <!--Cierre de HTML-->
 </html>
