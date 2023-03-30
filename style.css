@@ -1,0 +1,202 @@
+/*Esto ataca al contenido de la pag*/
+body {
+    margin: 0px;
+    background-color: #F1F8FF;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Banner*/
+.hd {
+    background-color: #1f1f1f;
+    height: 240px;
+    text-align: center;
+    width: 100%;
+}
+/*Imagen del Banner*/
+.hd img {
+    width: auto;
+    margin: 0px;
+    padding: 0%;
+    height: 199px
+}
+/*Categorías*/
+.menu a {
+    background-color: #eaa12a;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    border-top-right-radius: 100px;
+}
+/*Fondo Transiciones*/
+.menu a:hover {
+    background-color: #ebca95;
+}
+/*Transiciones*/
+.cp img:hover {
+    border-radius: 0%;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 1ms;
+    box-shadow: 0px 0px 26px 3px rgba(0, 0, 0, 0.75);
+}
+
+/* Vídeo*/
+
+.video {
+    margin: 10%;
+}
+/*Nosotros*/
+.nosotros {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 95%;
+}
+/*Texto nosotros*/
+.textus {
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: justify;
+    margin-left: 80px;
+}
+/*Titulo ¿Quienes Somos?*/
+.textus h3 {
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: 0em;
+
+    text-align: left;
+}
+/*Texto ¿Quienes Somos?*/
+.textus p {
+    font-size: 18px;
+    text-align: justify;
+}
+/*Nuestra Filosofía*/
+.textus2 {
+    font-family: Montserrat;
+    font-size: 40 px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 86%;
+    text-align: justify;
+    margin-left: 80px;
+}
+/*Titulo nuestra Filosofía*/
+.textus2 h4 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: -40px;
+    color: #EAA12A;
+}
+/*Texto nuestra Filosofía*/
+.textus2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: -40px;
+}
+/*Adopcion*/
+.adopcion h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    color: #000000;
+    width: 600px;
+    margin-left: 0px;
+    padding-left: 80px;
+}
+/*Imagen de Adopción*/
+.adopcion img {
+    width: 500px;
+    margin-left: 800px;
+    margin-top: -25%;
+}
+/*Titulo de Adopcion*/
+.proceso h3 {
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: -7%;
+}
+/*Texto de adopción*/
+.proceso h4 {
+    font-size: 20px;
+    margin-left: 80px;
+
+}
+/*Texto de adopción*/
+.proceso p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 100px;
+}
+/*Titulo animales en adopcion*/
+.animalesenadopcion h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+/*fondo de animales adopción*/
+.cp {
+    background-color: #f8e5c5;
+    border-radius: 111px;
+    padding: 10%;
+    margin:1%;
+    display: inline-block;
+    width: 78%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/*iD animales*/
+
+/* imagenes de perros a adoptar */
+.foto1 {
+    border-radius: 50%;
+    width: 100%;
+}
+.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9{
+    width: 30%;
+    display: inline-block;
+    margin: 1%;
+    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 1));
+    padding-left: 11px;
+}
+.cp p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    background: #FFFFFF;
+    border-radius: 33px;
+    width: 146px;
+    height: 42px;
+    margin-left: 27%;
+}
+
+/* seccion colaboracion */
+.colaboracion {
+    position: absolute;
+    width: 713px;
+    height: 112px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 98px;
+}
+
