@@ -206,16 +206,17 @@ body {
     position: absolute;
     }
     
-    .gatosyperros {
+    .contenedor .imagen .gatosyperros {
         border-radius: 50%;
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
         margin-left: 55%;
         position: absolute;
         margin-top: 15%;
+        align-content: center;
     }
     
-    .textocolabo {
+    .contenedor .texto .textocolabo {
     /* width: 50px; */
     height: 50px;
     font-family: 'Inter';
@@ -259,9 +260,9 @@ body {
       }
     
       input[type="submit"] {
-        background-color: #4CAF50;
+        background-color: #D9D9D9;
         border: none;
-        color: white;
+        color: rgb(0, 0, 0);
         padding: 10px 20px;
         text-align: center;
         text-decoration: none;
@@ -273,7 +274,74 @@ body {
       }
     
       input[type="submit"]:hover {
-        background-color: #3e8e41;
+        border:solid black 3px !important;
+        font-weight: 900;
       }
     
+/*codigo para el grid*/
+.contenedor{
+    /* width: 90%; */
+    /* max-width: 1500px; */
+    /* margin: 20px, auto; */
+    display: grid;
+    grid-gap: 3px; 
+    grid-template-rows: repeat(5,auto);
+    grid-template-columns: repeat(6,1fr);
+   
+}
+.contenedor > div 
+/* .contenedor .tituloSeccion , */
+/* .contenedor .tituloSeccion .textoSeccion , */
+/* .contenedor .imagen , */
+/* .contenedor .formulario, */
+/* .contenedor .texto */
+{
+    /* margin-left: 15%; */
+    background-color: #F1F8FF;
+    padding: 5px;
+    border-radius: 10px;
 
+}
+
+.contenedor .tituloSeccion {
+    background-color: rgb(140, 124, 216);
+    color:#000000;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+}
+
+.contenedor .formulario{
+
+    width: 60%;
+    height: 80%;
+    background-color: rgb(49, 52, 255);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:3;
+    grid-row-end: -1;
+}
+
+.contenedor .imagen  {
+    width: 50%;
+    height: 40%;
+  
+    background-color: #2d56c5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: -1;
+}
+.contenedor .texto{
+    width: 50%;
+    height: 40%;
+    background-color: rgb(11, 188, 194);
+    grid-row-start: 5 ;
+    grid-row-end: -1 ;
+    grid-column-start: 4;
+    grid-column-end: -1;
+}
+.boton{
+    justify-content: center;
+}
